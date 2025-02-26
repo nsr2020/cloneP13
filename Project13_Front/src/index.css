@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  font-family: "Josefin Sans", sans-serif;
+}
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+:root{
+  --nsr-color1:white;
+  --nsr-color2:yellow;
+  --nsr-color3:#f9d81a;
+  --nsr-color4: #ffdb9e;
+  --nsr-color5:teal;
+  --nsr-color6:black;
+  --nsr-color7:#F0B66B;
+  --nsr-color8:#0B7072;
+  --nsr-color9:#EFE081;
+  --nsr-color10:#F1713F;
+  --nsr-color11: #87C19B;
+  --nsr-color12: #4e2d1d;
+  --nsr-color13:#f9eb0a;
+  --nsr-color14:#ec008c;
+  --nsr-color15:#005caf;
+  --nsr-color16:#6c3e1e;
+  --nsr-color17:#faad14;
+  --nsr-color18:#d1d1d1;
+  --nsr-color19:#391F5B;
+  --nsr-color20:#12007a;
+  --nsr-color21:#d0b08a;
+  --nsr-color22:grey;
+  --nsr-color23:#f7d792;
+  --nsr-color24:red;
+
+  /*borders y margins*/
+  --nsr-border1:10px;
+  --nsr-border2:20px;
+  --nsr-border3:30px;
+  --nsr-border4:40px;
+  --nsr-border5:50px;
+
+  --nsr-margin1:10px;
+  --nsr-margin2:20px;
+  --nsr-margin3:30px;
+  --nsr-margin4:40px;
+  --nsr-margin5:50px;
+  --nsr-margin6:70px;
+  --nsr-margin7:80px;
+
+  /*paddings*/
+  --nsr-padding1:10px;
+  --nsr-padding2:20px;
+  --nsr-padding3:30px;
+  --nsr-padding4:40px;
+  --nsr-padding5:50px;
+  --nsr-padding6:100px;
+  /*gaps*/
+  --nsr-gap1:10px;
+  --nsr-gap2:20px;
+  --nsr-gap3:30px;
+  --nsr-gap4:40px;
+  --nsr-gap5:50px;
+  /*Font Size*/
+  --nsr-font-size1:10px;
+  --nsr-font-size2:20px;
+  --nsr-font-size3:30px;
+  --nsr-font-size4:40px;
+  --nsr-font-size5:45px;
+  --nsr-font-size6:60px;
+  --nsr-font-size7:70px;
+  --nsr-font-size8:80px;
+  --nsr-font-size9:90px;
+  --nsr-font-size10:100px;
+  --nsr-font-size11:110px;
+  --nsr-font-size12:120px;
+  --nsr-font-size13:130px;
+  /*url images*/
+  --nsr-bimage1:url("https://www.transparenttextures.com/patterns/buried.png");
+  --nsr-bimage2:url("https://www.transparenttextures.com/patterns/brick-wall.png");
+  --nsr-bimage3:url("https://www.transparenttextures.com/patterns/binding-light.png");
+  --nsr-bimage4:url("https://www.transparenttextures.com/patterns/45-degree-fabric-light.png");
+  /*Border Radius*/
+  --nsr-bradius1:10px;
+  --nsr-bradius2:20px;
+  --nsr-bradius3:30px;
+  --nsr-bradius4:40px;
+  --nsr-bradius5:50px;
+
+  /*Cursor*/
+  --nsr-cursor1:pointer;
+  /* directions*/
+  --nsr-direction1:column;
+  /*opacity*/
+
+  --nsr-opacity1:0.9;
+  /*fontWeigth*/
+  --nsr-fweight1:bold;
+
+  /*positions*/
+  --nsr-pos1:relative;
+  --nsr-pos2:absolute;
+  --nsr-pos3:fixed;
+  --nsr-pos4:sticky;
+
+  /*userSelect*/
+  --nsr-userSelect:none;
+  /*transition*/
+  --nsr-transition: all 0.5s;
+ 
+ 
+}
